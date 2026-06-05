@@ -5,21 +5,28 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="TaskFlow_page.css">
+
     <title>Task Flow</title>
 </head>
+
+<script src="TaskFlow.js"></script>
 
 <body>
     <!-- #NAVBAR -->
     <nav class="navbar">
         <div class="logo"><img src="copybook.svg" height="60px" width="70px" color="white">
-           <h5>TaskFlow</h5>
+            <h5>TaskFlow</h5>
         </div>
+        <div class="menu-icon" id="menuIcon">
+            ☰
+        </div>
+
         <ul class="nav-links">
             <li><a href="#">Home</a></li>
             <li><a href="#">Features</a></li>
             <li><a href="#">Pricing</a></li>
             <li><a href="#">Contact</a></li>
-            <li><button>Get Started</button></li>
+            <li><button id="getStartedBtn">Get Started</button></li>
         </ul>
     </nav>
     <!-- # HERO SECTION -->
@@ -27,9 +34,9 @@
         <div class="left">
             <h1>Streamline Your<br><strong> Workflow </strong><br>with TaskFlow</h1><br>
             <p>TaskFlow helps teams organize tasks,<br>
-                 track progress, and get more done — all in one place.Stop juggling tools. <br>
-                 Manage your tasks, projects,<br>
-                 and deadlines in one simple workflow.</p>
+                track progress, and get more done — all in one place.Stop juggling tools. <br>
+                Manage your tasks, projects,<br>
+                and deadlines in one simple workflow.</p>
             <div class="hero-buttons">
                 <button>Get Started</button>
                 <button>Learn More</button>
@@ -216,7 +223,7 @@
             <input type="email" placeholder="Enter your email" />
             <button>Subscribe</button>
         </div>
-         <hr class="footer-divider"> 
+        <hr class="footer-divider">
         <div class="footer-bottom">
             <p>&copy; 2026 TaskFlow. All rights reserved.</p>
         </div>
